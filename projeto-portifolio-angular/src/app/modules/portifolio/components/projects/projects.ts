@@ -33,6 +33,34 @@ export class Projects {
         },
       ]
     },
+    {
+      src: "assets/img/projects/Todolist.png",
+      alt: "Logo do projeto Todolist",
+      title: "Todolist",
+      width: "100px",
+      height: "100px",
+      description: "<p>O Todolist é uma aplicação moderna e intuitiva desenvolvida em Angular para gerenciar suas tarefas do dia a dia. Organize suas atividades, adicione novos itens, marque como concluídos e mantenha o controle total da sua rotina de forma simples e eficiente.</p><p>Uma lista de tarefas é essencial para aumentar a produtividade e manter o foco. Com o Todolist, você conta com uma interface leve, responsiva e rápida — ideal para quem busca praticidade no gerenciamento de compromissos pessoais ou profissionais.</p>",
+      links: [
+        {
+          name: "Conheça o projeto",
+          href: "https://paulo-victorsb.github.io/to-do-list-angular/"
+        },
+      ]
+    },
+    {
+      src: "assets/img/projects/Portifolio.png",
+      alt: "Logo do projeto Portifólio",
+      title: "Portifólio",
+      width: "100px",
+      height: "100px",
+      description: "<p>O meu portfólio é uma aplicação moderna e responsiva desenvolvida em <strong>Angular</strong>, criada para apresentar habilidades e projetos reais na área de <strong>desenvolvimento web Full-Stack</strong>. Aqui você encontra uma vitrine digital com foco em tecnologias como PHP, Laravel, JavaScript, Vue, Angular, HTML5, CSS3 e Bootstrap.</p><p>Este portfólio foi projetado para destacar experiências, competências e soluções criadas ao longo da jornada como desenvolvedor. Navegue pelos projetos, baixe o currículo e entre em contato para conhecer mais sobre o trabalho e as soluções digitais que unem <strong>design, performance e funcionalidade</strong>.</p>",
+      links: [
+        {
+          name: "Conheça o projeto",
+          href: "https://paulo-victorsb.github.io/projeto-portifolio-angular/"
+        },
+      ]
+    },
   ])
 
   public openDialog(data: IProjects) {
